@@ -53,7 +53,7 @@ public class One2ManyCallIT extends BrowserTest<WebPage> {
   protected final static int TEST_TIMEOUT = 30; // seconds
   protected final static int PLAY_TIME = 5; // seconds
   protected final static String DEFAULT_NUM_VIEWERS = "3";
-  protected final static String APP_URL = "https://35.246.164.240:8433/";
+  protected final static String APP_URL = "https://localhost:8443/";
   protected static int numViewers = 1;
 
   @Before
